@@ -1,0 +1,11 @@
+div .card{
+    width: 20rem;
+}
+
+div .card-body .miring{
+    font-style: italic;
+}
+
+.tebal{
+    font-weight: 700;
+}
