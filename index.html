@@ -9,18 +9,27 @@
 </head>
 <body>
 
-    <div class="container">
-    <div class="form-floating mb-3 mt-3">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-        <label for="floatingInput">Nama</label>
+
+    <div class="col-8 mx-auto">
+      <div class="mb-3">
+        <label for="nama" class="form-label">Nama</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" id="nama" name="nama" required>
+      </div>
+      <div class="mb-3">
+        <label for="ucapan" class="form-label">Ucapan</label>
+        <textarea class="form-control" id="ucapan" name="ucapan" rows="3" type="text" required></textarea>
       </div>
 
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">Comments</label>
+      <div class="mb-3">
+        <label for="status" class="form-label">Konfirmasi</label>
+        <select name="status" id="status" class="form-select">
+          <option selected>Pilih salah satu</option>
+          <option value="hadir">Hadir</option>
+          <option value="tidak hadir">Tidak Hadir</option>
+        </select>
       </div>
 
-      <button type="button" class="btn btn-primary mt-2 justify-content-center mx-auto">Kirim</button>
+      <button type="button" class="btn btn-primary justify-content-center mx-auto">Kirim</button>
     </div>
 
     <div class="output">    

@@ -2,8 +2,9 @@ div .card{
     width: 20rem;
 }
 
-div .card-body .miring{
+div .miring{
     font-style: italic;
+    margin:auto;
 }
 
 .tebal{
