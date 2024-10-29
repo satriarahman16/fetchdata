@@ -33,11 +33,11 @@ function init() {
                
                 colz.forEach((ele, ind)=>{
                   
+                    
                     row[ele] = (main.c[ind] != null) ? main.c[ind].v : '';
-                    // row.toString();
                     // console.log(row)
                 })
-                // console.log(row)
+                console.log(row)
                 
                 data.push(row);
                 
