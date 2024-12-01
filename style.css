@@ -34,3 +34,9 @@ div .miring{
       transform: rotate(1turn);
     }
   }
+
+  .custom-width{
+    width:90px;
+    height: 40px;
+    display: flex;
+  }
