@@ -1,4 +1,4 @@
-const sheetID = '1JiLt2yI2DlZEJzZPa_63O11Sg88ABVjYBz5FCC7bL50';
+const sheetID = '1eCduRzqFzYJYy-B3ZX_NDUZkA_ryzvVANB3tPn9WkyI';
 const base = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?`;
 const sheetName = 'tamu';
 const query = encodeURIComponent('Select *');
@@ -14,7 +14,8 @@ function init() {
     fetch(url)
         .then(res => res.text())
         .then(rep => {
-
+            data.length = 0;  
+            output.innerHTML = ""; 
             const jsData = JSON.parse(rep.substring(47).slice(0, -2));
 
             const colz = [];
